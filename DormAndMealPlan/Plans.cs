@@ -16,5 +16,64 @@ namespace DormAndMealPlan
         {
             InitializeComponent();
         }
+
+        int DormCharges;
+        int MealCharges;
+
+        private void radioButtonAllenHall_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonAllenHall.Checked)
+            {
+                DormCharges = 1500;
+            }
+        }
+
+        private void radioButtonPikeHall_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonPikeHall.Checked)
+            {
+                DormCharges = 1600;
+            }
+        }
+
+        private void radioButtonFarthingHall_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonFarthingHall.Checked)
+            {
+                DormCharges = 1800;
+            }
+        }
+
+        private void radioButtonUniversitySuites_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonUniversitySuites.Checked)
+            {
+                DormCharges = 2500;
+            }
+        }
+
+        private void radioButton7Meals_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton7Meals.Checked)
+            {
+                MealCharges = 600;
+            }
+        }
+
+        private void radioButton14Meals_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton14Meals.Checked)
+            {
+                MealCharges = 1200;
+            }
+        }
+
+        private void radioButtonUnlimitedMeals_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonUnlimitedMeals.Checked)
+            {
+                MealCharges = 1700;
+            }
+        }
     }
 }

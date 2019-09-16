@@ -50,6 +50,7 @@
             this.radioButtonAllenHall.TabStop = true;
             this.radioButtonAllenHall.Text = "Allen Hall $1,500 per semester";
             this.radioButtonAllenHall.UseVisualStyleBackColor = true;
+            this.radioButtonAllenHall.CheckedChanged += new System.EventHandler(this.radioButtonAllenHall_CheckedChanged);
             // 
             // label1
             // 
@@ -70,6 +71,7 @@
             this.radioButtonPikeHall.TabStop = true;
             this.radioButtonPikeHall.Text = "Pike Hall $1,600 per semester";
             this.radioButtonPikeHall.UseVisualStyleBackColor = true;
+            this.radioButtonPikeHall.CheckedChanged += new System.EventHandler(this.radioButtonPikeHall_CheckedChanged);
             // 
             // radioButtonFarthingHall
             // 
@@ -81,6 +83,7 @@
             this.radioButtonFarthingHall.TabStop = true;
             this.radioButtonFarthingHall.Text = "Farthing Hall $1,800 per semester";
             this.radioButtonFarthingHall.UseVisualStyleBackColor = true;
+            this.radioButtonFarthingHall.CheckedChanged += new System.EventHandler(this.radioButtonFarthingHall_CheckedChanged);
             // 
             // radioButtonUniversitySuites
             // 
@@ -92,6 +95,7 @@
             this.radioButtonUniversitySuites.TabStop = true;
             this.radioButtonUniversitySuites.Text = "University Suites $2,500 per semester";
             this.radioButtonUniversitySuites.UseVisualStyleBackColor = true;
+            this.radioButtonUniversitySuites.CheckedChanged += new System.EventHandler(this.radioButtonUniversitySuites_CheckedChanged);
             // 
             // label2
             // 
@@ -112,6 +116,7 @@
             this.radioButton7Meals.TabStop = true;
             this.radioButton7Meals.Text = "7 meals per week $600 per semester";
             this.radioButton7Meals.UseVisualStyleBackColor = true;
+            this.radioButton7Meals.CheckedChanged += new System.EventHandler(this.radioButton7Meals_CheckedChanged);
             // 
             // radioButton14Meals
             // 
@@ -124,6 +129,7 @@
             this.radioButton14Meals.Text = "14 meals per week $1,200 per semester";
             this.radioButton14Meals.UseCompatibleTextRendering = true;
             this.radioButton14Meals.UseVisualStyleBackColor = true;
+            this.radioButton14Meals.CheckedChanged += new System.EventHandler(this.radioButton14Meals_CheckedChanged);
             // 
             // radioButtonUnlimitedMeals
             // 
@@ -135,6 +141,7 @@
             this.radioButtonUnlimitedMeals.TabStop = true;
             this.radioButtonUnlimitedMeals.Text = "Unlimited meals $1,700 per semester";
             this.radioButtonUnlimitedMeals.UseVisualStyleBackColor = true;
+            this.radioButtonUnlimitedMeals.CheckedChanged += new System.EventHandler(this.radioButtonUnlimitedMeals_CheckedChanged);
             // 
             // buttonSubmit
             // 
