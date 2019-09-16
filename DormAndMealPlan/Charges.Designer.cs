@@ -31,6 +31,7 @@
             this.labelTotalCost = new System.Windows.Forms.Label();
             this.labelCharges = new System.Windows.Forms.Label();
             this.textBoxCharges = new System.Windows.Forms.TextBox();
+            this.buttonClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelTotalCost
@@ -53,16 +54,27 @@
             // 
             // textBoxCharges
             // 
-            this.textBoxCharges.Location = new System.Drawing.Point(339, 111);
+            this.textBoxCharges.Location = new System.Drawing.Point(340, 104);
             this.textBoxCharges.Name = "textBoxCharges";
             this.textBoxCharges.Size = new System.Drawing.Size(100, 20);
             this.textBoxCharges.TabIndex = 2;
+            // 
+            // buttonClose
+            // 
+            this.buttonClose.Location = new System.Drawing.Point(353, 186);
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.Size = new System.Drawing.Size(75, 23);
+            this.buttonClose.TabIndex = 3;
+            this.buttonClose.Text = "Close";
+            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // Charges
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.textBoxCharges);
             this.Controls.Add(this.labelCharges);
             this.Controls.Add(this.labelTotalCost);
@@ -79,5 +91,6 @@
         private System.Windows.Forms.Label labelTotalCost;
         private System.Windows.Forms.Label labelCharges;
         public System.Windows.Forms.TextBox textBoxCharges;
+        private System.Windows.Forms.Button buttonClose;
     }
 }
