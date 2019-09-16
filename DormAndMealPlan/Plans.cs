@@ -75,5 +75,14 @@ namespace DormAndMealPlan
                 MealCharges = 1700;
             }
         }
+
+        private void buttonSubmit_Click(object sender, EventArgs e)
+        {
+            var charges = new Charges();
+
+            charges.textBoxCharges.Text = "$" + (DormCharges + MealCharges).ToString();
+            charges.ShowDialog();
+           
+        }
     }
 }
